@@ -18,14 +18,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00D0FF", endC
       height: auto;
     }
   </style>
-  <link rel="manifest" href="/manifest.json">
+  <link rel="manifest" href="manifest.json">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="real 2025">
-  <link rel="apple-touch-icon" href="/icons/icon-512.png">
+  <link rel="apple-touch-icon" href="icons/512.png">
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/service-worker.js');
+      navigator.serviceWorker.register('service-worker.js');
     }
     function forceReload() {
       const url = location.origin + location.pathname + '?nocache=' + new Date().getTime();
